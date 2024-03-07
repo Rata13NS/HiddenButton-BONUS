@@ -5,7 +5,6 @@ function copyToClipboard() {
     generatedNumber.select();
     console.log(generatedNumber.value);
     navigator.clipboard.writeText(generatedNumber.value);
-    ++contor;
 }
 
 function generateButtons() {
